@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="index.css" />
+<link rel="stylesheet" href="">
+<title>Three-layer Windows Demo</title>
+
+</head>
+
+
+<!-- concept bãi biển pixel art, các ô nhập cx có biển có thể thêm cây dừa (dưới), mặt trời(trên-trái), chỗ nằm (phải),  -->
+<body>
+
+  <div class="stage" id="stage">
+
+    <!-- Layer 1: tiêu đề -->
+    <div class="window layer-1 floating" id="layer1">
+      <div class="titlebar drag-handle">
+        <div class="controls"></div>
+      </div>
+      
+      <!-- giới thiệu Kỷ yếu -->
+      <div class="board">
+        <P>
+        Đây là một trang web kì lạ, không ai biết nó dùng để làm gì. <br>
+        Chỉ biết rằng, nó sẽ chọn ra những người đặc biệt thông qua Phở Bờ cá nhân của bạn. <br>
+        Nếu không làm theo, máy bạn sẽ tự động bị nhiễm mã độc và biến thành cục gạch di động. <br>
+       </P>
+       <a href="">HƯỚNG DẪN</a>
+      </div>
+    </div>
+
+    <!-- Layer 2: link? -->
+    <div class="window layer-2 floating" id="layer2">
+      <div class="titlebar drag-handle">
+        <div class="controls"></div>
+        <div class="controls"></div>
+        <div class="title"></div>
+      </div>
+      <div class="content">
+        <div class="hint">Nhập link facebook cá nhân của bạn:</div>
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Link Facebook">   
+         <button onclick="myFunction()" class="btn" id="submit">submit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Layer 3: answer -->
+    <div class="window layer-3 floating" id="layer3">
+      <div class="titlebar drag-handle">
+        <div class="controls"></div>
+        <div class="controls"></div>
+        <div class="controls"></div>
+      </div>
+      <div class="content">
+        <!-- <div class="hint">Kết quả (layer 3):</div> -->
+        <div class="answer-box" id="answerBox">
+          
+          <p id="Text" style="font-weight: bold;">
+          </p>
+
+          <!-- Link thiệp cho từng người -->
+          <!-- Nguyễn Hoàng Long -->
+          <a id="Link1" href="https://printstyleeeeeeeeeee.my.canva.site/nguy-n-ho-ng-long"></a>
+
+          <!-- Hồng Ánh -->
+          <a id="Link2" href="https://printstyleeeeeeeeeee.my.canva.site/l-h-ng-nh"></a>
+          
+          <!-- Vân Anh -->
+          <a id="Link3" href="https://printstyleeeeeeeeeee.my.canva.site/b-nh"></a>
+          
+          <!-- Nguyễn Trí Dũng (A9) -->
+          <a id="Link4" href=""></a>
+
+          <!-- Vũ Minh Hiển (A9) -->
+          <a id="Link5" href=""></a>
+
+          <!-- Nhà Cô Linh -->
+          <a id="Link6" href=""></a>
+
+          <!-- Nga + Khôi -->
+          <a id="Link7" href=""></a>
+
+          <!-- Đức Đào  -->
+          <a id="Link8" href=""></a>
+
+          <!-- Bố mẹ -->
+          <a id="Link9" href=""></a>
+
+          <!-- Bà Ngoại -->
+          <a id="Link10" href=""></a>
+
+          <!-- Trang -->
+          <a id="Link11" href=""></a>   
+
+          <!-- Link chung - nếu làm ko kịp -->
+          <a id="Link12" href=""></a>
+
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
