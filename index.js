@@ -61,38 +61,38 @@ function myFunction() {
             break;
 
             case "https://www.facebook.com/bui.nga.186941":
-                  person = "Người được chọn: Nga";
+                  person = "Người được chọn: Nga & Khôi";
                   text = ">>Nhấp vào đây<<";
                   document.getElementById("Text").innerHTML = person; 
                   document.getElementById("Link7").innerHTML = text;
             break;
 
             case "https://www.facebook.com/khoi.bui.604070":
-                  person = "Người được chọn: Khôi";
+                  person = "Người được chọn: Nga & Khôi";
                   text = ">>Nhấp vào đây<<";
                   document.getElementById("Text").innerHTML = person; 
                   document.getElementById("Link7").innerHTML = text;
             break;
 
             case "https://www.facebook.com/duc.dao.420513":
-                  person = "Người được chọn: anh Đức chị Hoàng Anh";
+                  person = "Người được chọn: anh Đức & chị Hoàng Anh";
                   text = ">>Nhấp vào đây<<";
                   document.getElementById("Text").innerHTML = person; 
                   document.getElementById("Link8").innerHTML = text;
             break;
 
             case "https://www.facebook.com/thanhhuyen.gdc":
-                  person = "Người được chọn: bố Bình mẹ Huyền";
+                  person = "Người được chọn: bố Bình & mẹ Huyền";
                   text = ">>Nhấp vào đây<<";
                   document.getElementById("Text").innerHTML = person; 
                   document.getElementById("Link9").innerHTML = text;
             break;
 
             case "https://www.facebook.com/Binh.DaoQ":
-                  person = "Người được chọn: bố Bình mẹ Huyền";
+                  person = "Người được chọn: bố Bình & mẹ Huyền";
                   text = ">>Nhấp vào đây<<";
                   document.getElementById("Text").innerHTML = person; 
-                  document.getElementById("Link10").innerHTML = text;
+                  document.getElementById("Link9").innerHTML = text;
             break;
             
             case"https://www.facebook.com/YuukiTT1710":
@@ -117,7 +117,7 @@ function myFunction() {
             break;
             
             default:
-                  text = "Link của bạn không chính xác hoặc không có trong danh sách!";
+                  text = "Bạn không phải người được chọn!! Virus đang được cài vô máy...";
                   document.getElementById("Text").innerHTML = text;
             break;
          }
